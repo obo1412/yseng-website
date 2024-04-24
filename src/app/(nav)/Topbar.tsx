@@ -3,15 +3,18 @@ import Link from "next/link";
 
 const Topbar = () => {
   return (
-    <div className="flex-col border-b border-gray-400">
+    <div className="flex-col border-b border-gray-400 font__JalnanGothic text-[20px]">
       <div className="w-full h-[60px]">
         {/* 빈공간 추후에 들어갈 로그인관련 공간 확보 */}
       </div>
-      <div className="flex items-center h-[40px]">
-        <div className="w-[200px]">
-          <Link href={`/`}>YSENG Logo</Link>
+      <div className="flex items-center h-[40px] px-4">
+        <div className="w-[140px] sm:w-[200px] text-[24px]">
+          <Link href="/" className="hover:translate-x-1">
+            YSENG
+          </Link>
         </div>
-        <div className="flex-1">
+        <div className="flex-1">{/* 가운데 공간 확보용 */}</div>
+        <div className="flex">
           <ul className="flex justify-evenly">
             <li>
               <Link
@@ -24,7 +27,7 @@ const Topbar = () => {
             <li>
               <Link
                 href={`/product`}
-                className="border-l border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
+                className="border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
               >
                 제작사례
               </Link>
@@ -32,7 +35,7 @@ const Topbar = () => {
             <li>
               <Link
                 href={`/board`}
-                className="border-l border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
+                className="border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
               >
                 고객지원
               </Link>
