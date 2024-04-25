@@ -2,15 +2,39 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex py-6">
-      <div className="w-full h-[360px] bg-gray-500 flex justify-center items-center">
-        <Image
-          src="/"
-          width={300}
-          height={100}
-          alt="main image"
-          className="rounded-3xl"
-        />
+    <main className="flex flex-col py-6">
+      <div className="h-[200px] sm:h-[360px] flex justify-center items-center px-4 mb-4">
+        <div className="w-full h-full relative">
+          <Image
+            src="/imgs/yseng-main1.jpeg"
+            fill
+            alt="main1-image"
+            className="rounded-2xl"
+          />
+        </div>
+      </div>
+      <div>신뢰의 기업 영신</div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nisi, illum
+        obcaecati sed omnis beatae quisquam possimus deserunt eum impedit,
+        dolorem unde deleniti eos? Maxime corporis doloribus minima. Ullam,
+        voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+        nisi, illum obcaecati sed omnis beatae quisquam possimus deserunt eum
+        impedit, dolorem unde deleniti eos? Maxime corporis doloribus minima.
+        Ullam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nam nisi, illum obcaecati sed omnis beatae quisquam possimus
+        deserunt eum impedit, dolorem unde deleniti eos? Maxime corporis
+        doloribus minima. Ullam, voluptatum. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Nam nisi, illum obcaecati sed omnis beatae
+        quisquam possimus deserunt eum impedit, dolorem unde deleniti eos?
+        Maxime corporis doloribus minima. Ullam, voluptatum. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Nam nisi, illum obcaecati sed
+        omnis beatae quisquam possimus deserunt eum impedit, dolorem unde
+        deleniti eos? Maxime corporis doloribus minima. Ullam, voluptatum. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Nam nisi, illum
+        obcaecati sed omnis beatae quisquam possimus deserunt eum impedit,
+        dolorem unde deleniti eos? Maxime corporis doloribus minima. Ullam,
+        voluptatum.
       </div>
     </main>
   );

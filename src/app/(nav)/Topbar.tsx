@@ -8,8 +8,8 @@ const Topbar = () => {
         {/* 빈공간 추후에 들어갈 로그인관련 공간 확보 */}
       </div>
       <div className="flex items-center h-[40px] px-4">
-        <div className="w-[140px] sm:w-[200px] text-[24px]">
-          <Link href="/" className="hover:translate-x-1">
+        <div className="w-[120px] sm:w-[200px] text-[24px]">
+          <Link href="/" className="flex">
             YSENG
           </Link>
         </div>
