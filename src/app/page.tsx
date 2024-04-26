@@ -14,28 +14,7 @@ export default function Home() {
         </div>
       </div>
       <div>신뢰의 기업 영신</div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nisi, illum
-        obcaecati sed omnis beatae quisquam possimus deserunt eum impedit,
-        dolorem unde deleniti eos? Maxime corporis doloribus minima. Ullam,
-        voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-        nisi, illum obcaecati sed omnis beatae quisquam possimus deserunt eum
-        impedit, dolorem unde deleniti eos? Maxime corporis doloribus minima.
-        Ullam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Nam nisi, illum obcaecati sed omnis beatae quisquam possimus
-        deserunt eum impedit, dolorem unde deleniti eos? Maxime corporis
-        doloribus minima. Ullam, voluptatum. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Nam nisi, illum obcaecati sed omnis beatae
-        quisquam possimus deserunt eum impedit, dolorem unde deleniti eos?
-        Maxime corporis doloribus minima. Ullam, voluptatum. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Nam nisi, illum obcaecati sed
-        omnis beatae quisquam possimus deserunt eum impedit, dolorem unde
-        deleniti eos? Maxime corporis doloribus minima. Ullam, voluptatum. Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Nam nisi, illum
-        obcaecati sed omnis beatae quisquam possimus deserunt eum impedit,
-        dolorem unde deleniti eos? Maxime corporis doloribus minima. Ullam,
-        voluptatum.
-      </div>
+      <div></div>
     </main>
   );
 }
