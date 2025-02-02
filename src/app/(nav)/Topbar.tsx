@@ -8,7 +8,7 @@ const Topbar = () => {
         {/* 빈공간 추후에 들어갈 로그인관련 공간 확보 */}
       </div>
       <div className="flex items-center h-[40px] px-4">
-        <div className="w-[120px] sm:w-[200px] text-[24px]">
+        <div className="w-[100px] sm:w-[200px] text-[20px] sm:text-[24px]">
           <Link href="/" className="flex">
             YSENG
           </Link>
@@ -19,7 +19,7 @@ const Topbar = () => {
             <li>
               <Link
                 href={`/intro`}
-                className="border-l border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
+                className="border-l border-r border-gray-400 px-2 sm:px-6 py-1 hover:bg-gray-300 text-sm sm:text-xl"
               >
                 회사소개
               </Link>
@@ -27,7 +27,7 @@ const Topbar = () => {
             <li>
               <Link
                 href={`/product`}
-                className="border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
+                className="border-r border-gray-400 px-2 sm:px-6 py-1 hover:bg-gray-300 text-sm sm:text-xl"
               >
                 제작사례
               </Link>
@@ -35,7 +35,7 @@ const Topbar = () => {
             <li>
               <Link
                 href={`/board`}
-                className="border-r border-gray-400 px-6 py-1 hover:bg-gray-300"
+                className="border-r border-gray-400 px-2 sm:px-6 py-1 hover:bg-gray-300 text-sm sm:text-xl"
               >
                 고객지원
               </Link>
