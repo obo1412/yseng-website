@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex flex-col items-center pt-10">
+    <div className="flex flex-col items-center pt-10 px-6 sm:px-10">
       <div className="flex flex-col items-center mb-10">
         <h3 className="text-[22px] font__JalnanGothic">주요고객사</h3>
         <div>고객사 이미지 대체 예정</div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex flex-col items-center w-full h-full pt-10">
+    <div className="flex flex-col items-center w-full h-full pt-10 px-6 sm:px-10">
       <div className="flex flex-col items-center mb-10">
         <h3 className="text-[22px] font__JalnanGothic">회사소개</h3>
         <div>
@@ -16,7 +16,7 @@ const page = () => {
           안녕하십니까 저희 영신이앤지(주) 홈페이지를 방문해주셔서 감사드립니다.
         </div>
       </div>
-      <div className="flex flex-col items-center mb-10 min-w-[360px]">
+      <div className="flex flex-col items-center mb-10">
         <h3 className="text-[22px] font__JalnanGothic">연혁</h3>
         <div className="flex flex-col w-full">
           <div className="flex">
