@@ -1,4 +1,8 @@
-<div>
+<script>
+	import { clientList } from './clientsList.svelte';
+</script>
+
+<div class="border-t-2">
 	<h1>고객사</h1>
 	<div>
 		<h2>국내 고객사</h2>
@@ -18,6 +22,19 @@
 		<span>DY AUTO 인도 Delhi 공장</span>
 		<span>DY AUTO 멕시코 Apodaca 공장</span>
 	</div>
+</div>
+<div>
+	<h1>설비 납품 이력(신규)</h1>
+	{#each clientList as client}
+		<div>
+			<h2>{client.company}</h2>
+			<div>
+				{#each client.machinery as item}
+					<div>{item}</div>
+				{/each}
+			</div>
+		</div>
+	{/each}
 </div>
 <div>
 	<h1>설비 납품 이력(국내)</h1>
