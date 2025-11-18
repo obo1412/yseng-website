@@ -3,55 +3,27 @@
 </script>
 
 <div class="border-t-2">
-	<h1>고객사</h1>
-	<div>
-		<h2>국내 고객사</h2>
-		<span>삼화정밀</span>
-		<span>ITOPS AUTOMOTIVE</span>
-		<span>세우정밀</span>
-		<span>삼성전기</span>
-		<span>보그워너</span>
-		<span>주성ENG</span>
-		<span>경원정공</span>
-		<span>DY AUTO</span>
-		<span>LG이노텍</span>
-	</div>
-	<div>
-		<h2>해외 고객사</h2>
-		<span>DY AUTO 중국 연태 공장</span>
-		<span>DY AUTO 인도 Delhi 공장</span>
-		<span>DY AUTO 멕시코 Apodaca 공장</span>
-	</div>
+	<h1>고객사 목록</h1>
+	{#each clientList as client}
+		<div>
+			<h2>{client.company}</h2>
+		</div>
+	{/each}
 </div>
 <div>
-	<h1>설비 납품 이력(신규)</h1>
+	<h1>설비 납품 이력</h1>
 	{#each clientList as client}
 		<div>
 			<h2>{client.company}</h2>
 			<div>
 				{#each client.machinery as item}
-					<div>{item}</div>
+					<div>- {item}</div>
 				{/each}
 			</div>
 		</div>
 	{/each}
 </div>
 <div>
-	<h1>설비 납품 이력(국내)</h1>
-	<div>
-		<h2>디와이오토</h2>
-		<div>
-			라인설비 ARMATURE; LOTOR 생산라인 ATR #6, #7 LINE POWER WINDOW MOTOR 생산라인 PWM #3, #6, #7,
-			#8, #9, #10, #11, #12, #13, #14 LINE FRONT WIPER MOTOR 생산라인 FWM #1, #2, #3 LINE REAR WIPER
-			MOTOR 생산라인 RWM #2, #3 LINE COOLING FAN MOTOR 생산라인 CFM #1, #3, #5 LINE BLDC COOLING FAN
-			MOTOR 생산라인 BLCD #1 LINE
-		</div>
-		<div>
-			단독설비 스테이터-마그네트 본딩기 샤프트 콕킹 & 스틸볼 삽입기 수동 체결기 정류자 & 링 마그네트
-			수동 삽입 & 전장검사기. 아마추어 버핑, 브러쉬, 터닝기, 에이징 M/C 와이퍼 모터 스테이터 콕킹
-			M/C, 핫멜트 콘베어 M/C 다이아후램 3축 체결기, 본드 도포기 델타 리어 와이퍼 수동 조립 라인
-		</div>
-	</div>
 	<div>
 		<h2>아이탑스 오토모티브</h2>
 		<div>
