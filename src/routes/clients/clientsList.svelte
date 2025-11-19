@@ -22,9 +22,18 @@
 				'델타 리어 와이퍼 수동 조립라인'
 			]
 		},
-		{ company: '(해외)DY Auto 중국 연태 공장', machinery: [] },
-		{ company: '(해외)DY Auto 인도 Delhi 공장', machinery: [] },
-		{ company: '(해외)DY Auto 멕시코 Apodaca 공장', machinery: [] },
+		{
+			company: '(해외)DY Auto 중국 연태 공장',
+			machinery: ['ATR LINE #2, #3', 'PWM LINE #3, #4, #5']
+		},
+		{
+			company: '(해외)DY Auto 인도 Delhi 공장',
+			machinery: ['ATR LINE #1, DPM LINE #1, PWM LINE #1, #2, #3', 'END-BRACKET ASSEMBLY LINE']
+		},
+		{
+			company: '(해외)DY Auto 멕시코 Apodaca 공장',
+			machinery: ['PWM LINE #1, #2', 'RWM LINE #1', 'ATR LINE #1']
+		},
 		{ company: '두원공조', machinery: ['ROTOR #1 LINE', 'ROTOR #2 LINE'] },
 		{ company: '삼화정밀', machinery: [] },
 		{ company: 'ITOPS AUTOMOTIVE', machinery: [] },
