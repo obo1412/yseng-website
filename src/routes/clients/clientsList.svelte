@@ -34,10 +34,23 @@
 			company: '(해외)DY Auto 멕시코 Apodaca 공장',
 			machinery: ['PWM LINE #1, #2', 'RWM LINE #1', 'ATR LINE #1']
 		},
-		{ company: '두원공조', machinery: ['ROTOR #1 LINE', 'ROTOR #2 LINE'] },
+		{ company: '두원공조', machinery: ['전동컴프레셔 모터 ROTOR #1 LINE', 'ROTOR #2 LINE'] },
 		{ company: '삼화정밀', machinery: [] },
-		{ company: 'ITOPS AUTOMOTIVE', machinery: [] },
-		{ company: 'ITOPS 세우정밀', machinery: [] },
+		{
+			company: 'ITOPS AUTOMOTIVE',
+			machinery: [
+				'ACTUATOR CURLING M/C',
+				'화약식 ACTUATOR 조립라인',
+				'화약식 2세대 ACTUATOR 조립라인',
+				'T1XX ACTUATOR 조립라인',
+				'GM BEV2 ACTUATOR 조립라인',
+				'PTG SPINDLE MOTOR 조립라인 #1, #2',
+				'TOUCH PAD SWITCH 조립라인',
+				'APS 3M TAPE 부착설비',
+				'RS4차종 센서조립 라인'
+			]
+		},
+		{ company: '세우정밀', machinery: [] },
 		{ company: '삼성전기', machinery: [] },
 		{ company: '보그워너', machinery: [] },
 		{ company: '주성ENG', machinery: [] },
